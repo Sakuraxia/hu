@@ -1,0 +1,108 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/page.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.min.1.8.2.js" type="text/javascript"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+<script src="js/fk.js" type="text/javascript"></script>
+<title> 惠东渔歌</title>
+<style> 
+p{ line-height:40px} 
+.divcss5-c p{ margin:0 auto; padding:20px 0} 
+
+</style> 
+</head>
+
+<body>
+<!-- 代码 开始 -->
+<div id="online_qq_layer">
+    <div id="online_qq_tab">
+      <div class="online_icon">
+        <a title="" id="floatShow" style="display:none" href="javascript:void(0);">&nbsp;</a>
+        <a title="" id="floatHide" style="display:block" href="javascript:void(0);">&nbsp;</a>
+      </div>
+    </div>
+    <div id="onlineService" style="display: block;">
+      <div class="online_windows overz">
+          <div class="online_w_top"></div>
+          <div class="online_w_c overz">
+            <div id="online_qq">
+                <ul class="qq_ul fn-clear">
+<li class="kfli" onclick="openQQ('799129700')"><img src="images/Line_qq.png" border="0" /> 业务咨询</li>  
+<li class="kfli" onclick="openQQ('363576965')"><img src="images/Line_qq.png" border="0" /> 业务咨询</li>  
+<li class="kfli" onclick="openQQ('2193744200')"><img src="images/Line_qq.png" border="0" /> 客服服务</li>  
+<li class="kfli" onclick="openQQ('1315797152')"><img src="images/Line_qq.png" border="0" /> 投诉建议</li> 
+                            </ul>
+            </div>
+            <div class="phone_Advisory">
+ <p class="phone_img"></p>
+ <p class="Number">4000-028-020</p>
+ <p><img src="images/QQ_weixin.png" /></p>
+</div>
+          </div>
+          <div class="online_w_bottom"></div>
+      </div>
+    </div>
+</div>
+
+<script>  
+    var online = new Array();  
+</script>  
+<script type= "text/javascript" src="http://webpresence.qq.com/getonline?Type=1&799129700:363576965:2193744200:1315797152" ></script>  
+<script type="text/javascript">  
+    for (var i = 0; i < online.length; i++) {  
+        if (online[i] == 0) {  
+            $(".kfli img").eq(i).attr("src","images/not_qq.png");  
+        } else {  
+            $(".kfli img").eq(i).attr("src",'images/Line_qq.png');  
+        }  
+    }  
+        
+  
+    window.onscroll = function () {  
+        if (document.documentElement.scrollTop + document.body.scrollTop > 100) {  
+            document.getElementById("scrollto").style.display = "block";  
+        }  
+        else {  
+            document.getElementById("scrollto").style.display = "none";  
+0        }  
+    }  
+    function OpenSmallWindows(strURL, scrollbar, width, height, left, top) {  
+        window.open(strURL, "_blank",  
+     "status=no,resizable=0,toolbar=no,menubar=no,scrollbars=" + scrollbar + ",width=" + width + ",height=" + height + ",left=" + left + ",top=" + top + "");  
+    }  
+    function openQQ(qq) {  
+        window.location.href = "tencent://message/?uin=" + qq + "&Site=gbgjs.com&Menu=yes";  
+    }  
+</script>    
+<div id="top">
+ 
+<!--广告样式-->
+<div class="AD_img" style="background:url(images/page_AD_02.png) no-repeat; height:300px; background-position:center;"></div>
+<!--内页样式-->
+<div class="page clearfix">
+  <div class="Content_styles clearfix margin_bottom" >
+   <div class="Section_About">
+      <div class="title_name">
+	  <div class="name">惠东渔歌</div>
+	  <span class="English">CHAOJINGMEN</span>
+	 </div>
+	 <!--内容-->
+	 <div class="info"  style="font-size:20px" >
+	<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp惠东渔歌： 
+1.中华书局出版的《惠州市志（四）》（2008年3月第1版）中，第五十五编第六章第三节惠东渔歌涉及到惠东渔歌部分，介绍了惠东渔歌在惠东具体流行的村落，著名歌曲、渔歌的音调、歌词曲式结构、调式解构、并附上渔歌唱腔（啊啊香调、阿阿央调、哩嘟㖒调、咦唉唉调）
+	 </p>
+	 <div class="bd">
+		<ul class="picList">
+			<li><div class="pic"><img src="images\cj\yg\yg1.png"  width="1000"/></div></li>
+			<li><div class="pic"><img src="images\cj\yg\yg2.png"  width="1000"/></div></li>
+			
+	</div>
+	 
+	 </div>
+	 </div>
+  </div>
+</div>
+</body>
+</html>
